@@ -14,6 +14,10 @@ print("Error handling")
 # score = 100
 # average = score / 0
 # print(average)    #will raise zeroDivisionError 
+# try :
+#     average =  score/0
+# except:
+#     print("Cant divide an integer by zero")
 
 # Type error
 
@@ -45,18 +49,18 @@ x = 5
 
 
 
-def division(val1, val2):
-        res = round(val1 / val2)
-        print(res)
+# def division(val1, val2):
+#         res = round(val1 / val2)
+#         print(res)
 
 
-try:
-    val1 = int(input("Enter value one: "))
-    val2 = int(input("Enter value two: "))
-    # print(type(val1))
+# try:
+#     val1 = int(input("Enter value one: "))
+#     val2 = int(input("Enter value two: "))
+#     # print(type(val1))
     
-    division(val1, val2)
-except ValueError:
-    print("Values must be integers")
-except ZeroDivisionError:
-    print('Divisor cannot be zero')
+#     division(val1, val2)
+# except ValueError:
+#     print("Values must be integers")
+# except ZeroDivisionError:
+#     print('Divisor cannot be zero')
